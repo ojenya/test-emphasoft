@@ -1,10 +1,4 @@
-        /* ============== FULLHD ==============  */
-        
-        nav a {
-            text-decoration: none;
-            padding-right: 10px;
-            padding-left: 10px;
-        }
+        /* ============== 1000+ ==============  */
         
         .polygon {
             z-index: 0;
@@ -24,14 +18,14 @@
             height: 100px;
             width: 100vw;
             background-color: #fff;
-        }
-        
-        header {
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 15px #55b8d3;
             z-index: 33;
         }
         
         nav a {
+            text-decoration: none;
+            padding-right: 10px;
+            padding-left: 10px;
             color: #666;
             font-size: 15px;
             text-transform: uppercase;
@@ -68,7 +62,6 @@
         .burger {
             display: none;
         }
-        /* ============== FULL ==============  */
         /* ============== 320px ==============  */
         
         @media (max-width: 320px) {
@@ -83,7 +76,6 @@
             }
             .logo-hidden {
                 display: flex;
-                /* height: 20px; */
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
@@ -92,14 +84,12 @@
             }
             .logo-hidden svg {
                 height: 20px;
+                width: 83px;
                 margin-right: 100px;
                 fill: url('#c')
             }
             .logo-hidden svg:hover {
                 fill: url('#d')
-            }
-            .logo-hidden__svg {
-                width: 83px;
             }
             .auth {
                 display: none;
@@ -108,8 +98,6 @@
                 display: none
             }
         }
-        /* ============== 320px ==============  */
-        /*  */
         /* ============== 1000px ==============  */
         
         @media (max-width: 1000px) {
@@ -118,7 +106,7 @@
                 text-decoration: none;
                 z-index: 35;
             }
-            header.header {
+            .header {
                 height: 50px;
             }
             .fa-bars {
@@ -129,7 +117,6 @@
             }
             .logo-hidden {
                 display: flex;
-                /* height: 20px; */
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
@@ -139,13 +126,11 @@
             .logo-hidden svg {
                 height: 20px;
                 margin-right: 100px;
-                fill: url('#c')
+                fill: url('#c');
+                width: 83px;
             }
             .logo-hidden svg:hover {
                 fill: url('#d')
-            }
-            .logo-hidden__svg {
-                width: 83px;
             }
             .auth {
                 display: none;
@@ -154,5 +139,3 @@
                 display: none
             }
         }
-        /* ============== 1000px ==============  */
-        /*  */

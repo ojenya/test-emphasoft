@@ -106,9 +106,6 @@
 }
 
 
-/* =============== 320px ============ */
-
-
 /* =============== 1000px ============ */
 
 @media (max-width: 1000px) {
@@ -125,21 +122,3 @@
         display: none;
     }
 }
-
-@media (max-width: 320px) {
-    .first {
-        padding-top: 0px;
-    }
-    .copyright {
-        margin: 0;
-        padding: 15% 0;
-    }
-    .right,
-    .footer-logo__svg,
-    .second {
-        display: none;
-    }
-}
-
-
-/* =============== 1000px ============ */

@@ -1,0 +1,227 @@
+    /* ===================  MAIN  =================== */
+    
+    .block {
+        /* min-width: 250px; */
+        flex-direction: row;
+        display: flex;
+        padding: 5% 20%;
+        flex-direction: column;
+    }
+    
+    .wrapper {
+        max-width: 1000px;
+    }
+    
+    .digit-icon {
+        width: 150px;
+        float: left;
+    }
+    
+    .digit {
+        position: relative;
+        float: left;
+        opacity: 0.1;
+        font-size: 100px;
+        height: 100px;
+    }
+    
+    .svg {
+        width: 30px;
+        position: relative;
+        float: left;
+        right: 25px;
+        top: 70px;
+    }
+    
+    .digit-icon {
+        cursor: default;
+    }
+    
+    .digit-subtitle {
+        padding-top: 20px;
+        font-size: 14px;
+        min-width: 350px;
+    }
+    
+    .digit-subtitle a {
+        margin-right: 30px;
+        text-decoration: underline;
+        color: #2CD3B8;
+    }
+    
+    .list li a {
+        list-style-type: circle;
+        color: #2CD3B8;
+    }
+    
+    .list li a:hover {
+        color: #307065
+    }
+    
+    .column-item__desc a:hover {
+        color: #307065
+    }
+    
+    .digit-subtitle a:hover {
+        color: #307065
+    }
+    
+    .list li {
+        margin-top: 40px;
+        padding-left: 15px;
+    }
+    
+    .li-subtitle {
+        font-size: 9pt;
+        padding-top: 8px;
+        font-weight: 300;
+    }
+    
+    .list-icon {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .list-item__svg {
+        width: 70px;
+        margin-right: 35px;
+    }
+    
+    .column-icon {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    .column-item__svg {
+        width: 40px;
+        margin-right: 25px;
+    }
+    
+    .column-item__desc a {
+        color: #2CD3B8;
+    }
+    
+    .column-all {
+        display: flex;
+        justify-content: space-between
+    }
+    
+    .list-item__desc {
+        font-size: 15px;
+    }
+    /* =============== 320px =========== */
+    
+    @media (max-width: 320px) {
+        main {
+            width: inherit;
+            display: flex;
+            flex-direction: column;
+        }
+        .block {
+            flex-direction: column;
+            padding: 10%;
+        }
+        .text {
+            margin-bottom: 20px
+        }
+        .title {
+            font-size: 18pt;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .button {
+            margin: initial;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        .digit-icon {
+            width: 120px;
+        }
+        .list li {
+            margin-top: 20px;
+            margin-left: -25px;
+            padding-left: 10px;
+        }
+        .list-item__svg {
+            width: 50px;
+        }
+        .list-item__svg svg {
+            width: 50px;
+        }
+        .list-item__desc {
+            font-size: 10px;
+        }
+        .list-icon:nth-child(8) {
+            margin-bottom: 40px;
+        }
+        .list-icon {
+            margin-top: 10px;
+        }
+        .column-all {
+            display: inline;
+        }
+    }
+    /* =============== 320px =========== */
+    /* =============== 680px =========== */
+    
+    @media (max-width: 680px) {
+        .list-item__desc {
+            font-size: 13px;
+        }
+        .block {
+            padding: 5% 10%;
+        }
+        .button {
+            width: 100%;
+        }
+        .column-all {
+            display: inline;
+        }
+    }
+    /* =============== 680px =========== */
+    /* =============== 1000px ============ */
+    
+    @media (max-width: 1000px) {
+        .list-item__desc {
+            font-size: 15px;
+        }
+        .block {
+            padding: 10% 5%;
+        }
+        .button {
+            margin-bottom: 0px;
+            margin-right: 20px;
+            margin-top: 10px;
+        }
+        main {
+            width: inherit;
+            display: flex;
+            flex-direction: column;
+        }
+        .digit-icon {
+            width: 120px;
+        }
+        .digit-subtitle {
+            min-width: 0px;
+        }
+        .list li {
+            margin-top: 20px;
+            margin-left: -25px;
+            padding-left: 10px;
+        }
+        .list-item__svg {
+            width: 50px;
+        }
+        .list-item__svg svg {
+            width: 50px;
+        }
+        .list-item__desc {
+            font-size: 12px;
+        }
+        .list-icon:nth-child(8) {
+            margin-bottom: 40px;
+        }
+    }
+    /* =============== 1000px ============ */

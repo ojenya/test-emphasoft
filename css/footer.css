@@ -1,0 +1,145 @@
+/* ==============   FOOTER   ===============*/
+
+.footer {
+    max-height: 300px;
+    background-color: #393E6B;
+    display: flex;
+}
+
+.first {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    ;
+}
+
+.contact__large {
+    font-size: 25px;
+}
+
+.contact__large,
+.contact {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact__large:hover,
+.contact:hover,
+.social a:hover {
+    color: #2CD3B8;
+}
+
+.contact__large,
+.contact__text {
+    margin-bottom: 20px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.social a {
+    color: #fff;
+    font-size: 13px;
+    padding-right: 100px;
+}
+
+.sn a {
+    padding-right: 0px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.footer-logo__svg {
+    height: 27px;
+    fill: #272a51;
+}
+
+.footer-logo__svg svg:hover {
+    fill: url('#a');
+}
+
+
+/* =============== 320px ============ */
+
+@media screen and (max-width: 320px) {
+    .first {
+        padding-top: 0px;
+    }
+    .copyright {
+        margin: 0;
+        padding: 15% 0;
+    }
+    .right,
+    .footer-logo__svg,
+    .second {
+        display: none;
+    }
+}
+
+
+/* =============== 320px ============ */
+
+
+/* =============== 1000px ============ */
+
+@media (max-width: 1000px) {
+    .first {
+        padding-top: 0px;
+    }
+    .copyright {
+        margin: 0;
+        padding: 15% 0;
+    }
+    .right,
+    .footer-logo__svg,
+    .second {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .first {
+        padding-top: 0px;
+    }
+    .copyright {
+        margin: 0;
+        padding: 15% 0;
+    }
+    .right,
+    .footer-logo__svg,
+    .second {
+        display: none;
+    }
+}
+
+
+/* =============== 1000px ============ */

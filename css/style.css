@@ -1,0 +1,201 @@
+/* Указываем box sizing */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* Убираем внутренние отступы */
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+
+/* Убираем внешние отступы */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+
+/* Выставляем основные настройки по-умолчанию для body */
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+
+/* Упрощаем работу с изображениями */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Указываем понятную периодичность в потоке данных у article*/
+
+article>*+* {
+    margin-top: 1em;
+}
+
+
+/* Наследуем шрифты для инпутов и кнопок */
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    color: initial;
+    background-color: #EFF4F4;
+}
+
+
+/* ===================  FRAME  =================== */
+
+.white {
+    color: #fff;
+}
+
+.aqua {
+    color: #2CD3B8;
+    background-color: #2CD3B8;
+}
+
+.aqua-btn {
+    color: #fff;
+    background-color: #2CD3B8;
+    border: none;
+}
+
+.aqua-btn:hover {
+    background-color: #EFF4F4;
+    border: 1px solid #2CD3B8;
+    color: #2CD3B8;
+}
+
+.dark {
+    color: #393E6B;
+}
+
+.dark-btn {
+    color: #fff;
+    background-color: #393E6B;
+    border: none;
+}
+
+.dark-btn:hover {
+    background-color: #EFF4F4;
+    border: 1px solid #393E6B;
+    color: #393E6B;
+}
+
+.light-block {
+    background-color: #fff;
+    z-index: 20;
+}
+
+.light-btn {
+    background-color: #EFF4F4;
+    border: 1px solid #393E6B;
+}
+
+.text {
+    color: #74757B;
+    font-size: 13px
+}
+
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.button {
+    font-size: 9pt;
+    font-weight: 600;
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 680px) {
+    .button {
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .text {
+        margin-bottom: 20px
+    }
+    .title {
+        font-size: 18pt;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

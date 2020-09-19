@@ -59,7 +59,7 @@
                     display: none;
                 }
                 
-                .burger {
+                .dropdown {
                     display: none;
                 }
                 /* ============== 320px ==============  */
@@ -96,7 +96,7 @@
                 /* ============== 1000px ==============  */
                 
                 @media (max-width: 1000px) {
-                    .burger {
+                    .dropdown {
                         display: flex;
                         text-decoration: none;
                         z-index: 35;

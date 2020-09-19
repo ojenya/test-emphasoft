@@ -1,5 +1,5 @@
-# test-emphasoft
-Test task for Emphasoft
+# Test task for Emphasoft
+
 
 <a href="https://search-omdb.herokuapp.com/"><img src="https://raw.githubusercontent.com/ojenya/test-emphasoft/master/preview.png" title="Webim" alt="Webim"></a>
 
